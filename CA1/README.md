@@ -1,5 +1,5 @@
 # IT8701 - Introduction to Programming for Data Science
-Singapore Polytechnic Specialist Diploma in Data Science coursework
+Singapore Polytechnic Specialist Diploma in Data Science coursework. CA1 submission with Jupyter Notebook and Singapore housing data.
 
 ## Assignment Guidelines
 
@@ -11,9 +11,7 @@ Singapore Polytechnic Specialist Diploma in Data Science coursework
 
 4.	Submissions should be made via the Polymall CA1 Assignment Submission link by the stated deadline
 
-5.	Deliverable should be a zip file with the following file-naming convention 
-“YourModuleLecturerName-YourStudentID-YourName.zip” 
-e.g. “Chanon-1928883-JonSnow.zip”
+5.	Deliverable should be a zip file with the following file-naming convention “YourModuleLecturerName-YourStudentID-YourName.zip” e.g. “Chanon-1928883-JonSnow.zip”
 
 6.	Zip file should include the following items:
 
