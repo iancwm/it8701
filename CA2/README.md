@@ -1,5 +1,7 @@
 # IT8701 - CA 2
-Jupyter Notebook and data regarding Singapore telecommunications
+Jupyter Notebook and data regarding Singapore telecommunications.
+
+Main packages used were `pandas`, `seaborn`, `plotly_express` and `sqlalchemy`
 
 ## Assignment Requirements
 
