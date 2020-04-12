@@ -1,5 +1,9 @@
 # IT8701 - Introduction to Programming for Data Science
-Singapore Polytechnic Specialist Diploma in Data Science coursework. CA1 submission with Jupyter Notebook and Singapore housing data.
+Singapore Polytechnic Specialist Diploma in Data Science coursework. 
+
+This CA1 submission requires a Jupyter Notebook analyzing Singapore housing data.
+
+Main packages used include the standard library, `numpy` and `matplotlib`
 
 ## Assignment Guidelines
 
