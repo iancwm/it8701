@@ -1,0 +1,57 @@
+# Metadata for Mobile Data Usage
+---
+Identifier: '22d7cb93-b85d-4e93-ab90-a10cfabca507'
+Name: 'mobile-data-usage'
+Title: 'Mobile Data Usage'
+Description:
+  - 'Mobile data usage reflects the amount of bi-directional (the aggregated total
+    downloaded) mobile data sent over the mobile networks, including MMS and'
+  - 'any other data upload/download but excludes video telephony and SMS.'
+  - ''
+  - 'The data usage figures are monthly average figures for each quarter, derived
+    by taking the total data usage in a quarter, and then dividing by three.'
+Topics:
+  - 'Technology'
+Keywords:
+  - 'Information Technology'
+  - 'Internet Access'
+  - 'Mobile Phones'
+  - 'Telecommunications'
+Publisher:
+  Name: 'Infocomm Media Development Authority'
+  Admin 1:
+    Name: 'Tan Hock Chai'
+    Department: 'Planning'
+    Email: 'tan_hock_chai@imda.gov.sg'
+  Admin 2:
+    Name: 'Loh Woon Sien'
+    Department: 'PRCD'
+    Email: 'loh_woon_sien@imda.gov.sg'
+Sources:
+  - 'Infocomm Media Development Authority'
+Source Url: 'https://www.imda.gov.sg/industry-development/facts-and-figures/telecommunications#9x'
+License: 'https://data.gov.sg/open-data-licence'
+Frequency: 'Quarterly'
+Coverage: '2004-07-01 to 2018-06-30'
+Last Updated: '2018-11-18T14:45:42.159259'
+Resources:
+  -
+    Identifier: 'a807b7ab-6cad-4aa6-87d0-e283a7353a0f'
+    Title: 'Mobile Data Usage'
+    Url: 'https://storage.data.gov.sg/mobile-data-usage/resources/mobile-data-usage-2018-11-18T14-45-41Z.csv'
+    Format: 'CSV'
+    Coverage: '2004-07-01 to 2018-06-30'
+    Last Updated: '2018-11-18T14:45:41.769893'
+    Schema:
+      -
+        Name: 'quarter'
+        Title: 'Quarter'
+        Type: 'datetime'
+        Sub Type: 'quarter'
+        Format: 'YYYY-[Q]Q'
+      -
+        Name: 'volume_of_mobile_data'
+        Title: 'Volume Of Mobile Data'
+        Type: 'numeric'
+        Sub Type: 'general'
+        Unit Of Measure: 'Petabytes'

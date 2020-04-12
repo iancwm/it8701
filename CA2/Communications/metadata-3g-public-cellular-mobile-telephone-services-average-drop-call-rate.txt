@@ -1,0 +1,59 @@
+# Metadata for 3G Public Cellular Mobile Telephone Services - Average Drop Call Rate
+---
+Identifier: 'e32d6a83-e791-4103-8601-3be37b2ae7e4'
+Name: '3g-public-cellular-mobile-telephone-services-average-drop-call-rate'
+Title: '3G Public Cellular Mobile Telephone Services - Average Drop Call Rate'
+Description: 'This indicator measures the percentage of unintended disconnection of
+  3G mobile calls by the cellular network during a 100 second call. Under IDA''s 3G
+  PCMTS QoS framework, mobile operators are required to achieve <1% drop call rate
+  (average across the entire month).'
+Topics:
+  - 'Technology'
+Keywords:
+  - 'Information Technology'
+  - 'Mobile Phones'
+  - 'Telecommunications'
+Publisher:
+  Name: 'Infocomm Media Development Authority'
+  Admin 1:
+    Name: 'Tan Hock Chai'
+    Department: 'PCDG'
+    Email: 'tan_hock_chai@ida.gov.sg'
+  Admin 2:
+    Name: 'Loh Woon Sien'
+    Department: 'PCDG'
+    Email: 'loh_woon_sien@ida.gov.sg'
+Sources:
+  - 'Infocomm Media Development Authority'
+Source Url: 'https://www.ida.gov.sg/Policies-and-Regulations/Industry-and-Licensees/Standards-and-Quality-of-Service/3G-Services'
+License: 'https://data.gov.sg/open-data-licence'
+Frequency: 'Monthly'
+Coverage: '2013-04-01 to 2016-06-30'
+Last Updated: '2017-03-28T07:08:24.526902'
+Resources:
+  -
+    Identifier: 'b0f5648c-af96-4fee-a8fb-de7f9580d050'
+    Title: '3G Public Cellular Mobile Telephone Services - Average Drop Call Rate'
+    Url: 'https://storage.data.gov.sg/3g-public-cellular-mobile-telephone-services-average-drop-call-rate/resources/3g-public-cellular-mobile-telephone-services-average-drop-call-rate-2016-08-29T09-21-29Z.csv'
+    Format: 'CSV'
+    Coverage: '2013-04-01 to 2016-06-30'
+    Last Updated: '2016-08-29T09:21:29.833331'
+    Schema:
+      -
+        Name: 'month'
+        Title: 'Month'
+        Type: 'datetime'
+        Sub Type: 'month'
+        Format: 'YYYY-MM'
+      -
+        Name: 'telco'
+        Title: 'Telco'
+        Type: 'text'
+        Sub Type: 'general'
+      -
+        Name: 'drop_call_rate'
+        Title: 'Drop Call Rate'
+        Type: 'numeric'
+        Sub Type: 'percentage'
+        Description: 'Percentages are expressed as a value over 100, i.e. "100" represents
+          100%'

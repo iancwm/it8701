@@ -1,0 +1,54 @@
+# Metadata for Total SMS Messages sent and received over mobile network
+---
+Identifier: '45df30c7-1b49-47d6-a7a7-1b97a428c893'
+Name: 'volume-of-sms-messages'
+Title: 'Total SMS Messages sent and received over mobile network'
+Description:
+  - 'With effect from Aug 2008, figures for "SMS Messages" will be updated on a quarterly
+    basis every Mar, Jun, Sep and Dec. The figures are average monthly figures for
+    the respective quarter.'
+  - ''
+  - 'All figures for subscriptions are rounded to the nearest hundred.'
+Topics:
+  - 'Technology'
+Keywords:
+  - 'Mobile Phones'
+  - 'Telecommunications'
+Publisher:
+  Name: 'Infocomm Media Development Authority'
+  Admin 1:
+    Name: 'Tan Hock Chai'
+    Department: 'Planning'
+    Email: 'tan_hock_chai@imda.gov.sg'
+  Admin 2:
+    Name: 'Loh Woon Sien'
+    Department: 'PRCD'
+    Email: 'loh_woon_sien@imda.gov.sg'
+Sources:
+  - 'Infocomm Media Development Authority'
+Source Url: 'https://www.imda.gov.sg/industry-development/facts-and-figures/telecommunications'
+License: 'https://data.gov.sg/open-data-licence'
+Frequency: 'Quarterly'
+Coverage: '2008-07-01 to 2018-06-30'
+Last Updated: '2018-11-18T14:44:38.104772'
+Resources:
+  -
+    Identifier: 'e395f96a-b194-4fec-8865-ec2bd6137370'
+    Title: 'Total SMS Messages sent and received over mobile network'
+    Url: 'https://storage.data.gov.sg/volume-of-sms-messages/resources/total-sms-messages-sent-and-received-over-mobile-network-2018-11-18T14-44-37Z.csv'
+    Format: 'CSV'
+    Coverage: '2008-07-01 to 2018-06-30'
+    Last Updated: '2018-11-18T14:44:37.779457'
+    Schema:
+      -
+        Name: 'quarter'
+        Title: 'Quarter'
+        Type: 'datetime'
+        Sub Type: 'quarter'
+        Format: 'YYYY-[Q]Q'
+      -
+        Name: 'volume_of_sms'
+        Title: 'Volume Of SMS'
+        Type: 'numeric'
+        Sub Type: 'general'
+        Unit Of Measure: 'Number of SMS'

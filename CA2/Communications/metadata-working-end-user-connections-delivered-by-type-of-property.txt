@@ -1,0 +1,59 @@
+# Metadata for Working End-user connections delivered by type of property
+---
+Identifier: 'e62f1f02-1f76-4a59-8c3b-92f553a076ac'
+Name: 'working-end-user-connections-delivered-by-type-of-property'
+Title: 'Working End-user connections delivered by type of property'
+Description: 'IDA monitors the quality of infocomm services provided by service providers,
+  from basic telecom to mobile and Internet access services. To find out how service
+  providers are performing, we provide updated Quality of Service (QoS) reports here'
+Topics:
+  - 'Technology'
+Keywords:
+  - 'Commercial Property'
+  - 'Housing'
+  - 'Information Technology'
+  - 'Internet Access'
+Publisher:
+  Name: 'Infocomm Media Development Authority'
+  Admin 1:
+    Name: 'Tan Hock Chai'
+    Department: 'SPPR'
+    Email: 'tan_hock_chai@imda.gov.sg'
+  Admin 2:
+    Name: 'Loh Woon Sien'
+    Department: 'PCDG'
+    Email: 'loh_woon_sien@imda.gov.sg'
+Sources:
+  - 'Infocomm Media Development Authority'
+Source Url: 'https://www.ida.gov.sg/Policies-and-Regulations/Industry-and-Licensees/Standards-and-Quality-of-Service/Fibre-Connection-Services/NetLink-Trust-Fibre-Connection-Service-QoS-Performance-for-Q4-2015'
+License: 'https://data.gov.sg/open-data-licence'
+Frequency: 'Monthly'
+Coverage: '2011-09-01 to 2016-03-31'
+Last Updated: '2017-03-30T09:40:53.393845'
+Resources:
+  -
+    Identifier: '11b2fe7f-9201-44ee-b320-dadb186dd0ad'
+    Title: 'Working End-user connections delivered by type of property'
+    Url: 'https://storage.data.gov.sg/working-end-user-connections-delivered-by-type-of-property/resources/working-end-user-connections-delivered-by-type-of-property-2016-08-29T06-49-59Z.csv'
+    Format: 'CSV'
+    Coverage: '2011-09-01 to 2016-03-31'
+    Last Updated: '2016-08-29T06:49:59.500570'
+    Schema:
+      -
+        Name: 'month'
+        Title: 'Month'
+        Type: 'datetime'
+        Sub Type: 'month'
+        Format: 'YYYY-MM'
+      -
+        Name: 'connection_type'
+        Title: 'Connection type'
+        Type: 'text'
+        Sub Type: 'general'
+      -
+        Name: 'service_level'
+        Title: 'Service level'
+        Type: 'numeric'
+        Sub Type: 'percentage'
+        Description: 'Percentages are expressed as a value over 100, i.e. "100" represents
+          100%'

@@ -1,0 +1,97 @@
+# Metadata for Fixed Broadband Plans and Prices
+---
+Identifier: 'fde3a3a8-92d1-4c0a-8c15-aa06ed1f7b75'
+Name: 'fixed-broadband-plans-and-prices'
+Title: 'Fixed Broadband Plans and Prices'
+Description: 'Prices listed here are lowest available monthly subscription fees gleaned
+  from the respective service providers'' websites. Only fixed residential broadband
+  plans without usage limits are listed. Additional discounts or bundling may be available
+  through your service provider.'
+Topics:
+  - 'Technology'
+Keywords:
+  - 'Information Technology'
+  - 'Internet Access'
+Publisher:
+  Name: 'Infocomm Media Development Authority'
+  Admin 1:
+    Name: 'Tan Hock Chai'
+    Department: 'SPPR'
+    Email: 'tan_hock_chai@imda.gov.sg'
+  Admin 2:
+    Name: 'Teo Yeow Hong'
+    Department: 'Resource Management and Standards'
+    Email: 'teo_yeow_hong@imda.gov.sg'
+Sources:
+  - 'Infocomm Media Development Authority'
+Source Url: 'https://www.ida.gov.sg/applications/rbs/chart.html'
+License: 'https://data.gov.sg/open-data-licence'
+Frequency: 'Monthly'
+Coverage: '2013-03-01 to 2016-06-30'
+Last Updated: '2017-03-28T07:48:44.233238'
+Resources:
+  -
+    Identifier: '70e20cb2-f7a7-4e2d-bd95-47575b4dcbe6'
+    Title: 'Fixed Broadband Plans and Prices'
+    Url: 'https://storage.data.gov.sg/fixed-broadband-plans-and-prices/resources/fixed-broadband-plans-and-prices-2016-08-29T06-48-10Z.csv'
+    Format: 'CSV'
+    Coverage: '2013-03-01 to 2016-06-30'
+    Last Updated: '2016-08-29T06:48:10.681325'
+    Schema:
+      -
+        Name: 'month'
+        Title: 'Month'
+        Type: 'datetime'
+        Sub Type: 'month'
+        Format: 'YYYY-MM'
+      -
+        Name: 'date_of_retrieval_'
+        Title: 'Date of retrieval'
+        Type: 'text'
+        Sub Type: 'general'
+      -
+        Name: 'operator'
+        Title: 'Operator'
+        Type: 'text'
+        Sub Type: 'general'
+      -
+        Name: 'plan'
+        Title: 'Plan'
+        Type: 'text'
+        Sub Type: 'general'
+      -
+        Name: 'max_speed'
+        Title: 'Max speed'
+        Type: 'numeric'
+        Sub Type: 'general'
+        Unit Of Measure: 'Mbps'
+        Description: '"na" : Data not available or not applicable'
+      -
+        Name: 'plan_type'
+        Title: 'Plan type'
+        Type: 'text'
+        Sub Type: 'general'
+      -
+        Name: 'connection_type'
+        Title: 'Connection type'
+        Type: 'text'
+        Sub Type: 'general'
+      -
+        Name: 'contract_duration'
+        Title: 'Contract duration'
+        Type: 'text'
+        Sub Type: 'general'
+      -
+        Name: 'price_of_plan'
+        Title: 'Price of plan'
+        Type: 'numeric'
+        Sub Type: 'general'
+        Unit Of Measure: 'S$'
+        Description: '"na" : Data not available or not applicable'
+      -
+        Name: 'price_per_mbps'
+        Title: 'Price per Mbps'
+        Type: 'numeric'
+        Sub Type: 'general'
+        Unit Of Measure: 'S$'
+        Description: '"na" : Data not available or not applicable'

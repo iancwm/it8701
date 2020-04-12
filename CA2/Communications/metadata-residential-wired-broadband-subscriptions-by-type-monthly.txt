@@ -1,0 +1,63 @@
+# Metadata for Residential Wired Broadband Subscriptions By Type, Monthly
+---
+Identifier: '2024dc93-41bc-440e-b44b-9340aec465f3'
+Name: 'residential-wired-broadband-subscriptions-by-type-monthly'
+Title: 'Residential Wired Broadband Subscriptions By Type, Monthly'
+Description:
+  - 'Digital Subscriber Line(DSL) is a technology for bringing high-bandwidth information
+    to homes and small businesses over ordinary copper telephone lines'
+  - ''
+  - '"Total Cable Modem" includes residential and corporate cable modem subscriptions.'
+  - ''
+  - 'Total Optical Fibre Broadband" includes residential and corporate subscriptions
+    to broadband Internet services using optical fibre networks, including end-to-end
+    optical fibre broadband subscriptions that are offered via Passive Optical Network
+    ("PON") and Active Ethernet.'
+Topics:
+  - 'Technology'
+Keywords:
+  - 'Information Technology'
+  - 'Internet Access'
+Publisher:
+  Name: 'Infocomm Media Development Authority'
+  Admin 1:
+    Name: 'Tan Hock Chai'
+    Department: 'Planning'
+    Email: 'tan_hock_chai@imda.gov.sg'
+  Admin 2:
+    Name: 'Loh Woon Sien'
+    Department: 'PRCD'
+    Email: 'loh_woon_sien@imda.gov.sg'
+Sources:
+  - 'Infocomm Media Development Authority'
+Source Url: 'https://www.ida.gov.sg/Tech-Scene-News/Facts-and-Figures/Telecommunications/Statistics-on-Telecom-Services'
+License: 'https://data.gov.sg/open-data-licence'
+Frequency: 'Monthly'
+Coverage: '2008-08-01 to 2018-08-31'
+Last Updated: '2018-11-18T14:53:48.582770'
+Resources:
+  -
+    Identifier: '29c6c49c-93f6-4e60-af96-4fc0e1298b14'
+    Title: 'Residential Wired Broadband Subscriptions By Type, Monthly'
+    Url: 'https://storage.data.gov.sg/residential-wired-broadband-subscriptions-by-type-monthly/resources/residential-wired-broadband-subscriptions-by-type-monthly-2018-11-18T14-53-48Z.csv'
+    Format: 'CSV'
+    Coverage: '2008-08-01 to 2018-08-31'
+    Last Updated: '2018-11-18T14:53:48.146093'
+    Schema:
+      -
+        Name: 'month'
+        Title: 'Month'
+        Type: 'datetime'
+        Sub Type: 'month'
+        Format: 'YYYY-MM'
+      -
+        Name: 'broadband_connections'
+        Title: 'Broadband connections'
+        Type: 'text'
+        Sub Type: 'general'
+      -
+        Name: 'no_of_subscriptions'
+        Title: 'No of subscriptions'
+        Type: 'numeric'
+        Sub Type: 'general'
+        Unit Of Measure: 'Count'

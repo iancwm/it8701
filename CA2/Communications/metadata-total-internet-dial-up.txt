@@ -1,0 +1,59 @@
+# Metadata for Total Internet Dial Up
+---
+Identifier: 'daa61821-9f8f-4c02-90e6-98bdadaf2b44'
+Name: 'total-internet-dial-up'
+Title: 'Total Internet Dial Up'
+Description:
+  - 'The "Internet Dial-up Penetration Rate" includes: (i) subscriptions to paid Internet
+    access service for all IASPs, including ISDN dial-up subscriptions; and (ii) subscriptions
+    to free Internet access.  Following full telecom market liberalisation, the number
+    of IASPs has increased considerably. Starting from Jan 2001, the published figures
+    on the Internet dial-up market include contributions from such new IASPs. With
+    the cessation of free dial-up Internet access offered by service providers by
+    31 Mar 2008, the number of dial-up Internet subscriptions only covers paid Internet
+    access subscriptions.'
+  - ''
+  - 'All figures for subscriptions are rounded to the nearest hundred.'
+Topics:
+  - 'Technology'
+Keywords:
+  - 'Information Technology'
+  - 'Internet Access'
+Publisher:
+  Name: 'Infocomm Media Development Authority'
+  Admin 1:
+    Name: 'Tan Hock Chai'
+    Department: 'Planning'
+    Email: 'tan_hock_chai@imda.gov.sg'
+  Admin 2:
+    Name: 'Loh Woon Sien'
+    Department: 'PRCD'
+    Email: 'loh_woon_sien@imda.gov.sg'
+Sources:
+  - 'Infocomm Media Development Authority'
+Source Url: 'https://www.imda.gov.sg/industry-development/facts-and-figures/telecommunications'
+License: 'https://data.gov.sg/open-data-licence'
+Frequency: 'Monthly'
+Coverage: '1996-12-01 to 2018-08-31'
+Last Updated: '2018-11-18T14:52:34.780588'
+Resources:
+  -
+    Identifier: '23087f44-56bf-41cd-a598-4667c9705f5f'
+    Title: 'Total Internet Dial Up'
+    Url: 'https://storage.data.gov.sg/total-internet-dial-up/resources/total-internet-dial-up-2018-11-18T14-52-34Z.csv'
+    Format: 'CSV'
+    Coverage: '1996-12-01 to 2018-08-31'
+    Last Updated: '2018-11-18T14:52:34.301413'
+    Schema:
+      -
+        Name: 'month'
+        Title: 'Month'
+        Type: 'datetime'
+        Sub Type: 'month'
+        Format: 'YYYY-MM'
+      -
+        Name: 'total_internet_dialup'
+        Title: 'Total Internet Dialup'
+        Type: 'numeric'
+        Sub Type: 'general'
+        Unit Of Measure: 'Number of Internet dial-up subscriptions'

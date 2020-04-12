@@ -1,0 +1,52 @@
+# Metadata for Mobile Penetration Rate
+---
+Identifier: '24187d5e-784c-48ef-84f0-9ffc8418b322'
+Name: 'mobile-penetration-rate'
+Title: 'Mobile Penetration Rate'
+Description: 'Mobile penetration rate (in %) refers to mobile subscriptions over total
+  population in Singapore'
+Topics:
+  - 'Technology'
+Keywords:
+  - 'Information Technology'
+  - 'Mobile Phones'
+  - 'Telecommunications'
+Publisher:
+  Name: 'Infocomm Media Development Authority'
+  Admin 1:
+    Name: 'Tan Hock Chai'
+    Department: 'Planning'
+    Email: 'tan_hock_chai@imda.gov.sg'
+  Admin 2:
+    Name: 'Loh Woon Sien'
+    Department: 'PRCD'
+    Email: 'loh_woon_sien@imda.gov.sg'
+Sources:
+  - 'Infocomm Media Development Authority'
+Source Url: 'https://www.imda.gov.sg/industry-development/facts-and-figures/telecommunications#1x'
+License: 'https://data.gov.sg/open-data-licence'
+Frequency: 'Monthly'
+Coverage: '1997-01-01 to 2018-08-31'
+Last Updated: '2018-11-18T14:46:37.056190'
+Resources:
+  -
+    Identifier: '26e9766b-a42d-468c-9c25-88d89b850823'
+    Title: 'Mobile Penetration Rate'
+    Url: 'https://storage.data.gov.sg/mobile-penetration-rate/resources/mobile-penetration-rate-2018-11-18T14-46-36Z.csv'
+    Format: 'CSV'
+    Coverage: '1997-01-01 to 2018-08-31'
+    Last Updated: '2018-11-18T14:46:36.566729'
+    Schema:
+      -
+        Name: 'month'
+        Title: 'Month'
+        Type: 'datetime'
+        Sub Type: 'month'
+        Format: 'YYYY-MM'
+      -
+        Name: 'mobile_penetration_rate'
+        Title: 'Mobile Penetration Rate'
+        Type: 'numeric'
+        Sub Type: 'percentage'
+        Description: 'Percentages are expressed as a value over 100, i.e. "100" represents
+          100%'

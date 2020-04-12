@@ -1,0 +1,63 @@
+# Metadata for 3G Public Cellular Mobile Telephone Services  - Nation-wide Service Coverage
+---
+Identifier: 'f2f39aa0-7e35-4edc-80d8-c2a09e2c587a'
+Name: '3g-public-cellular-mobile-telephone-services-nation-wide-service-coverage'
+Title: '3G Public Cellular Mobile Telephone Services  - Nation-wide Service Coverage'
+Description: 'This indicator measures Nation-Wide Outdoor Service Coverage for the
+  3G cellular network. Service coverage is determined by signal strength. The availability
+  of service coverage is the ability of a cellular network to achieve the minimum
+  signal strength of at least -100dBm. Under IDA''s 3G Public Cellular Mobile Telephone
+  Service ("PCMTS") QoS framework, mobile operators are required to achieve Nation-Wide
+  Outdoor Service Coverage of >99%. In order to better measure the end users'' experience*,
+  IDA has used mobile handsets to collect the signal strength sample readings for
+  all service coverage indicators starting from Q2 2013.'
+Topics:
+  - 'Technology'
+Keywords:
+  - 'Information Technology'
+  - 'Mobile Phones'
+  - 'Telecommunications'
+Publisher:
+  Name: 'Infocomm Media Development Authority'
+  Admin 1:
+    Name: 'Tan Hock Chai'
+    Department: 'SPPR'
+    Email: 'tan_hock_chai@ida.gov.sg'
+  Admin 2:
+    Name: 'Loh Woon Sien'
+    Department: 'PCDG'
+    Email: 'loh_woon_sien@ida.gov.sg'
+Sources:
+  - 'Infocomm Media Development Authority'
+Source Url: 'https://www.ida.gov.sg/Policies-and-Regulations/Industry-and-Licensees/Standards-and-Quality-of-Service/3G-Services'
+License: 'https://data.gov.sg/open-data-licence'
+Frequency: 'Monthly'
+Coverage: '2013-04-01 to 2016-06-30'
+Last Updated: '2017-03-28T07:08:36.878238'
+Resources:
+  -
+    Identifier: 'c7f2dc9d-a1b8-4fca-99fa-91a4ade199d4'
+    Title: '3G Public Cellular Mobile Telephone Services  - Nation-wide Service Coverage'
+    Url: 'https://storage.data.gov.sg/3g-public-cellular-mobile-telephone-services-nation-wide-service-coverage/resources/3g-public-cellular-mobile-telephone-services-nation-wide-service-coverage-2016-08-29T09-23-24Z.csv'
+    Format: 'CSV'
+    Coverage: '2013-04-01 to 2016-06-30'
+    Last Updated: '2016-08-29T09:23:24.913602'
+    Schema:
+      -
+        Name: 'month'
+        Title: 'Month'
+        Type: 'datetime'
+        Sub Type: 'month'
+        Format: 'YYYY-MM'
+      -
+        Name: 'telco'
+        Title: 'Telco'
+        Type: 'text'
+        Sub Type: 'general'
+      -
+        Name: 'service_coverage'
+        Title: 'Service Coverage'
+        Type: 'numeric'
+        Sub Type: 'percentage'
+        Description: 'Percentages are expressed as a value over 100, i.e. "100" represents
+          100%'

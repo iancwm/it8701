@@ -1,0 +1,54 @@
+# Metadata for Residential Wired Broadband Subscriptions By Speed, Quarterly
+---
+Identifier: '09d57490-fd0c-4930-ac0c-f72e2ab63140'
+Name: 'residential-wired-broadband-subscriptions-by-speed-quarterly'
+Title: 'Residential Wired Broadband Subscriptions By Speed, Quarterly'
+Description: 'Figures are based on available data for residential broadband subscriptions
+  by speeds and includes some corporate subscriptions'
+Topics:
+  - 'Technology'
+Keywords:
+  - 'Information Technology'
+  - 'Internet Access'
+Publisher:
+  Name: 'Infocomm Media Development Authority'
+  Admin 1:
+    Name: 'Tan Hock Chai'
+    Department: 'Planning'
+    Email: 'tan_hock_chai@imda.gov.sg'
+  Admin 2:
+    Name: 'Loh Woon Sien'
+    Department: 'PRCD'
+    Email: 'loh_woon_sien@imda.gov.sg'
+Sources:
+  - 'Infocomm Media Development Authority'
+License: 'https://data.gov.sg/open-data-licence'
+Frequency: 'Quarterly'
+Coverage: '2011-01-01 to 2018-06-30'
+Last Updated: '2018-11-18T14:54:53.644095'
+Resources:
+  -
+    Identifier: '280439e7-c243-4901-9ff2-8ad4ad711793'
+    Title: 'Residential Wired Broadband Subscriptions By Speed, Quarterly'
+    Url: 'https://storage.data.gov.sg/residential-wired-broadband-subscriptions-by-speed-quarterly/resources/residential-wired-broadband-subscriptions-by-speed-quarterly-2018-11-18T14-54-53Z.csv'
+    Format: 'CSV'
+    Coverage: '2011-01-01 to 2018-06-30'
+    Last Updated: '2018-11-18T14:54:53.263139'
+    Schema:
+      -
+        Name: 'quarter'
+        Title: 'Quarter'
+        Type: 'datetime'
+        Sub Type: 'quarter'
+        Format: 'YYYY-[Q]Q'
+      -
+        Name: 'speed'
+        Title: 'Speed'
+        Type: 'text'
+        Sub Type: 'general'
+      -
+        Name: 'no_of_subscriptions'
+        Title: 'No of subscriptions'
+        Type: 'numeric'
+        Sub Type: 'general'
+        Unit Of Measure: 'Count'
